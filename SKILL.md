@@ -9,7 +9,7 @@ Create a concise personal digest of AI builder activity.
 
 ## Source Attribution
 
-Content feed source: Follow Builders public feed by Zara Zhang.
+Content feed source: Follow Builders public feed
 This wrapper customizes personal digest formatting only. It does not own or
 regenerate the upstream feed.
 
