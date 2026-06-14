@@ -1,25 +1,53 @@
 # AI Builders Briefs 2
 
-A small personal wrapper skill for generating concise AI builder digests.
+A small collection of personal wrapper skills for generating concise AI builder
+digests.
 
 
-## What This Wrapper Does
+## Skills In This Repo
 
-- Fetches the public Follow Builders feed.
-- Packages recent X posts, podcast transcripts, and blog posts into one JSON
-  context.
-- Guides an AI agent to produce a compact Chinese builder brief.
-- Keeps attribution visible in both the skill instructions and generated digest.
+### `ai-builder-brief`
 
-## Usage
+The root skill packages the public feed into JSON context for an AI agent to
+write a compact digest in chat.
+
+Run directly:
 
 ```bash
 cd scripts
 node prepare-brief.js
 ```
 
-The script prints a JSON payload containing the latest upstream feed content,
-summary instructions, feed statistics, and source attribution.
+### `ai-builders-html-brief`
+
+This standalone skill fetches the same public feed and automatically renders a
+local static HTML page.
+
+Run directly:
+
+```bash
+cd ai-builders-html-brief
+node scripts/generate-html.js
+```
+
+Output:
+
+```text
+ai-builders-html-brief/dist/index.html
+```
+
+When installed as a skill, ask the agent to generate an AI builders HTML brief.
+The skill instructs the agent to run the generator and return the local HTML
+path.
+
+## What These Wrappers Do
+
+- Fetches the public Follow Builders feed.
+- Packages recent X posts, podcast transcripts, and blog posts into one JSON
+  context.
+- Guides an AI agent to produce a compact Chinese builder brief or a local HTML
+  page.
+- Keeps attribution visible in both the skill instructions and generated digest.
 
 ## Upstream Feed Sources
 

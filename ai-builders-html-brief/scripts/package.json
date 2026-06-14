@@ -1,0 +1,10 @@
+{
+  "name": "ai-builders-html-brief-scripts",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node generate-html.js",
+    "test": "node --test generate-html.test.js"
+  }
+}
