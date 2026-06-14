@@ -2,9 +2,6 @@
 
 A small personal wrapper skill for generating concise AI builder digests.
 
-This project does not collect the source content itself. It reads the public
-feed from [Follow Builders](https://github.com/zarazhangrui/follow-builders) by
-Zara Zhang, then applies a custom prompt and format for personal summaries.
 
 ## What This Wrapper Does
 
@@ -74,8 +71,6 @@ surfaces the list here so readers can quickly see who and what the digest tracks
 
 ## Attribution
 
-Content feed source: [Follow Builders](https://github.com/zarazhangrui/follow-builders)
-public feed by Zara Zhang.
 
-This wrapper only reformats and summarizes that public feed. It does not own,
+This wrapper only reformats and summarizes public feed. It does not own,
 regenerate, or replace the upstream source list or feed generation pipeline.
