@@ -49,5 +49,3 @@ Keep it compact:
 - End with 3-5 things worth watching next.
 
 Always include a short attribution line at the end:
-
-`内容来源：Follow Builders public feed by Zara Zhang；本摘要为个人 wrapper 重新整理。`
